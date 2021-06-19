@@ -1,10 +1,13 @@
 USE codeup_test_db;
 
--- SELECT name AS 'Albums released after 1991' FROM albums WHERE release_date > 1991;
+-- SELECT 'Albums released after 1991' AS 'Search results';
+-- SELECT * FROM albums WHERE release_date > 1991;
 --
--- SELECT name AS 'Albums with the genre ''disco''' FROM albums WHERE genre = 'disco';
+-- SELECT 'Albums with the genre 'disco'' AS 'Search results';
+-- SELECT * FROM albums WHERE genre = 'disco';
 --
--- SELECT name AS 'Albums by ''Metallica''' FROM albums WHERE artist = 'Metallica';
+-- SELECT 'Albums by 'Metallica'' AS 'Search results';
+-- SELECT * FROM albums WHERE artist = 'Metallica';
 
 
 DELETE FROM albums WHERE release_date > 1991;

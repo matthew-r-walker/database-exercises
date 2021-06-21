@@ -41,4 +41,6 @@ SELECT * FROM employees WHERE birth_date LIKE '1963-01%';
 SELECT * FROM employees WHERE birth_date LIKE '1963-01%'
 ORDER BY birth_date;
 
-
+-- The _ allows us to select positioning for
+-- searching the 3rd position of the last name for e in this case.
+SELECT DISTINCT last_name FROM employees WHERE last_name LIKE '__e%';
